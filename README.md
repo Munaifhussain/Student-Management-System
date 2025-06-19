@@ -28,6 +28,14 @@ This console-based application provides institutions with robust tools for stude
 | Data Management    | Collections Framework |
 | Testing Framework  | JUnit 5           |
 
+📜 License
+MIT Licensed - Free for academic and commercial use
+
+👨‍💻 Developer: Munaif Hussain
+📍 Location: Delhi, India
+📧 Contact: hussainmunaif506@gmail.com
+🔗 GitHub: github.com/MunaifHussain
+
 ## 🚀 Quick Start
 
 ```bash
@@ -38,10 +46,3 @@ git clone https://github.com/MunaifHussain/student-management-system.git
 1. Open as Maven project
 2. Set JDK 17 as project SDK
 3. Run Main.java
-📜 License
-MIT Licensed - Free for academic and commercial use
-
-👨‍💻 Developer: Munaif Hussain
-📍 Location: Delhi, India
-📧 Contact: hussainmunaif506@gmail.com
-🔗 GitHub: github.com/MunaifHussain
