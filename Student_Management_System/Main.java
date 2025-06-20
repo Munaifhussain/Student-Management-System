@@ -1,3 +1,4 @@
+
 package Student_Management_System;
 
 import java.util.*;
@@ -43,9 +44,27 @@ public class Main {
         allCourses.add(java);
         allCourses.add(python);
 
+        // Java Questions
         java.getExam().addQuestion("What is JVM?", List.of("Java Virtual Machine", "Java Manager", "Java Mapper"), 1);
+        java.getExam().addQuestion("Which keyword is used to inherit a class?", List.of("super", "extends", "implements"), 2);
+        java.getExam().addQuestion("Which is not a Java feature?", List.of("Object-oriented", "Platform Independent", "Pointer usage"), 3);
+        java.getExam().addQuestion("Default size of int in Java?", List.of("2 bytes", "4 bytes", "8 bytes"), 2);
+        java.getExam().addQuestion("Method that starts execution in Java?", List.of("start()", "init()", "main()"), 3);
+        java.getExam().addQuestion("Which is used for exception handling?", List.of("catch", "handle", "try"), 3);
+        java.getExam().addQuestion("Which package contains Scanner class?", List.of("java.util", "java.io", "java.lang"), 1);
+        java.getExam().addQuestion("Java was developed by?", List.of("Microsoft", "Sun Microsystems", "IBM"), 2);
+
+        // Python Questions
         python.getExam().addQuestion("Symbol for comment in Python?", List.of("#", "//", "/* */"), 1);
+        python.getExam().addQuestion("Which keyword defines a function?", List.of("func", "def", "function"), 2);
+        python.getExam().addQuestion("Which is not a Python datatype?", List.of("list", "tuple", "tree"), 3);
+        python.getExam().addQuestion("How to print in Python?", List.of("print()", "echo()", "printf()"), 1);
+        python.getExam().addQuestion("Correct file extension for Python?", List.of(".py", ".pt", ".python"), 1);
+        python.getExam().addQuestion("What does len() do?", List.of("Returns length", "Returns index", "Returns type"), 1);
+        python.getExam().addQuestion("Python is:", List.of("Compiled", "Interpreted", "Both"), 2);
+        python.getExam().addQuestion("Which loop exists in Python?", List.of("repeat", "loop", "while"), 3);
     }
+
 
     private static void registerStudent() {
         System.out.print("👤 Enter Name: ");
